@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Pasquale 'sid' Fiorillo
 
 from xml.dom import minidom
 import base64
