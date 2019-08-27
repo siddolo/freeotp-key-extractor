@@ -8,8 +8,8 @@ import html
 import sys
 
 if len(sys.argv) < 2:
-    print(f'Usage: ./{sys.argv[0]} <inputfile>')
-    print(f'Example: ./{sys.argv[0]} tokens.xml')
+    print(f'Usage: {sys.argv[0]} <inputfile>')
+    print(f'Example: {sys.argv[0]} tokens.xml')
     sys.exit(2)
 
 xml = minidom.parse(sys.argv[1])
